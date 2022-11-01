@@ -1,7 +1,6 @@
 import styles from './index.module.scss'
 
 export default function Cards({ data }) {
-
     return (
         <div className={styles.container}>
             <img src={data.image} className={styles.image} />
