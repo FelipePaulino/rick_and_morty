@@ -1,11 +1,11 @@
 # Pesquisa pelos personagens da série Rick and Morty
 
-##Descrição
+##Descrição<br/>
 Projeto desenvolvido utilizando a API https://rickandmortyapi.com/
 
-##Instalação
-git clone https://github.com/FelipePaulino/rick_and_morty.git
-npm i
+##Instalação<br/>
+git clone https://github.com/FelipePaulino/rick_and_morty.git<br/>
+npm i<br/>
 npm run dev 
 
 ## Tecnologias
