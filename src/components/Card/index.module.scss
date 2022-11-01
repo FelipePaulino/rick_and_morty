@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgb(60 62 68);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 360px;
+}
+
+.image {
+    width: 100%;
+}

@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  .imgLogo {
+    width: 300px;
+  }
+
+  .input {
+    background: #ccc;
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    border: 2px solid #00B5CC;
+    padding: 10px;
+
+    &:focus-visible {
+       outline: 2px solid yellowgreen;
+    }
+  }
