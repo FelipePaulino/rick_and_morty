@@ -2,8 +2,8 @@ import { UserType } from "../../actions";
 import * as types from "../../types";
 
 const initialState = {
-    page: 1,
-    search: "",
+  page: 1,
+  search: "",
 };
 
 export const userReducer = (

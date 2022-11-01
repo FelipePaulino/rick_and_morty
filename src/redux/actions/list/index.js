@@ -12,7 +12,7 @@ export function getUserSuccess(payload) {
         payload
     }
 }
-export function getUserFailure(user){
+export function getUserFailure(user) {
     return {
         type: types.GET_USER_FAILURE,
         payload: user

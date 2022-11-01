@@ -32,7 +32,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header onChange={(e) => setSearch(e.target.value)} />      
+      <Header onChange={(e) => setSearch(e.target.value)} />
       <section className={styles.card}>
         {list?.map((item) => {
           return (

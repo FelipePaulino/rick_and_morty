@@ -4,11 +4,13 @@ export default function Pagination({ info, actionNext, actionPrev }) {
     return (
         <div data-testid='pagination' className={styles.container}>
             {info?.prev &&
-                <buttom data-testid='prev' className={styles.prev} onClick={actionPrev}><img src="arrow.svg" /></buttom>
+                <buttom data-testid='prev' className={styles.prev} onClick={actionPrev}>
+                    <img alt='arrow' src="arrow.svg" />
+                </buttom>
             }
             {info?.next &&
                 <buttom data-testid='next' className={styles.next} onClick={actionNext} disabled={true}>
-                    <img src="arrow.svg" />
+                    <img alt='arrow' src="arrow.svg" />
                 </buttom>
             }
         </div>
