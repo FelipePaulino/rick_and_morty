@@ -9,7 +9,7 @@ export default function Pagination({ info, actionNext, actionPrev }) {
                 </button>
             }
             {info?.next &&
-                <button data-testid='next' className={styles.next} onClick={actionNext} disabled={true}>
+                <button data-testid='next' className={styles.next} onClick={actionNext} >
                     <img alt='arrow' src="arrow.svg" />
                 </button>
             }
